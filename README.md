@@ -118,3 +118,9 @@ MIT License. See `LICENSE`.
 ## Citation
 
 If you use this project in research or curriculum analysis, please cite the repository.
+
+## Disclaimer
+
+Informational richness is not synonymous with instructional quality.
+Explicit instruction is necessary for many learners and skills.
+This toolkit is intended to complement, not replace, pedagogical judgment.
