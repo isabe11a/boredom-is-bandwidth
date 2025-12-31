@@ -85,4 +85,36 @@ Low contextual diversity limits statistical learning opportunities.
 
 ## Repository Structure
 
+boredom-is-bandwidth/
+data/
+texts_raw/
+texts_clean/
+notebooks/
+01_ingest_and_clean.ipynb
+02_train_lsa.ipynb
+03_semantic_novelty.ipynb
+04_redundancy_metrics.ipynb
+05_contextual_diversity.ipynb
+src/
+lsa.py
+metrics.py
+reporting.py
+app/
+streamlit_app.py
 
+## Roadmap
+
+- [ ] Text ingestion and chunking
+- [ ] LSA / LSI embedding pipeline
+- [ ] Novelty and redundancy metrics
+- [ ] Contextual diversity analysis
+- [ ] Streamlit “Boredom Report” app
+- [ ] Example datasets and reports
+
+## License
+
+MIT License. See `LICENSE`.
+
+## Citation
+
+If you use this project in research or curriculum analysis, please cite the repository.
