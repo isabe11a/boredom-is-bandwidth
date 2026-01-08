@@ -1,0 +1,29 @@
+# collections/collections.yaml
+#
+# Neutral collections derived from actual Grade 1 materials on hand.
+# Matching is done via title substrings produced from filenames.
+
+collections:
+  - collection_id: A
+    display_name: "Collection A: Programmed Knowledge-Building Sequence"
+    sampling_mode: "Entry sequence"
+    sampling_mode_explainer: "First student-facing texts introduced at the start of a Grade 1 reading phase (Unit 1)."
+    grade_band: "Grade 1"
+    notes: "CKLA Grade 1 Unit 1 student-facing materials (Listening & Learning read-alouds and Skills student reader)."
+    match:
+      title_contains:
+        - "ckla_g1_u1"
+      any_of: true
+
+  - collection_id: B
+    display_name: "Collection B: Authentic Narrative Set"
+    sampling_mode: "Entry sequence"
+    sampling_mode_explainer: "First N passages in a selected bundle of authentic children's literature."
+    grade_band: "Grade 1"
+    notes: "Frog and Toad (Ch. 1–5), Elephant & Piggie (We Are in a Book), Little Bear (Ch. 1–3)."
+    match:
+      title_contains:
+        - "g1_authentic_elephantandpiggie"
+        - "g1_authentic_frogandtoad"
+        - "g1_authentic_littlebear"
+      any_of: true
